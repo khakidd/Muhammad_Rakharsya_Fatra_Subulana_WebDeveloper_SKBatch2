@@ -474,8 +474,8 @@ function App() {
                 <div className="photo-caption"><span className="caption-icon" aria-hidden="true"><Asterisk size={22} strokeWidth={2} /></span><span>Ide bagus tumbuh<br />dari ruang yang nyaman.</span></div>
               </div>
               <div className="floating-note"><span className="note-icon" aria-hidden="true"><ArrowUpRight size={18} strokeWidth={2} /></span><span><strong>120+</strong><small>orang, satu tujuan</small></span></div>
-              <span className="hero-sparkle sparkle-one" aria-hidden="true">✳</span>
-              <span className="hero-sparkle sparkle-two" aria-hidden="true">✳</span>
+              <span className="hero-sparkle sparkle-one" aria-hidden="true"><Asterisk size={32} strokeWidth={2} /></span>
+              <span className="hero-sparkle sparkle-two" aria-hidden="true"><Asterisk size={32} strokeWidth={2} /></span>
             </div>
           </div>
           <div className="container stats-row" aria-label="RuangRaya dalam angka" ref={statsRef}>
@@ -613,7 +613,7 @@ function App() {
               <ScrollReveal as="li" className="timeline-item" delay={280}><span className="timeline-number">05</span><div><h3>Mulai cerita baru</h3><p>Kami kirim penawaran lengkap dan bersiap menyambutmu.</p><span className="timeline-time">2–3 hari</span></div></ScrollReveal>
             </ol>
             <ScrollReveal as="div" className="process-bottom">
-              <p><span aria-hidden="true">✳</span> Rata-rata selesai dalam <strong>14 hari kerja</strong></p>
+              <p><span className="process-average-icon" aria-hidden="true"><Asterisk size={20} strokeWidth={2} /></span> Rata-rata selesai dalam <strong>14 hari kerja</strong></p>
               <a className="button button-yellow button-arrow" href="#posisi" data-track="process_apply" onClick={() => trackEvent("cta_click", { placement: "process_apply" })}>Mulai melamar <AnimatedArrow /></a>
             </ScrollReveal>
           </div>
@@ -689,7 +689,7 @@ function App() {
             <h2>Ikuti cerita kami</h2><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true"></span></a><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true"></span></a><a href="mailto:privasi@ruangkarir.id">Kebijakan privasi</a>
           </ScrollReveal>
           <ScrollReveal as="div" className="footer-note" delay={210}>
-            <span aria-hidden="true">✳</span><p>Karier yang baik bukan cuma tentang ke mana kamu pergi, tapi juga siapa yang menemanimu.</p>
+            <span aria-hidden="true"><Asterisk size={22} strokeWidth={2} /></span><p>Karier yang baik bukan cuma tentang ke mana kamu pergi, tapi juga siapa yang menemanimu.</p>
           </ScrollReveal>
         </div>
         <div className="container footer-bottom"><span>© {new Date().getFullYear()} RuangKarir. All rights reserved.</span><a href="#top">Kembali ke atas ↑</a></div>
