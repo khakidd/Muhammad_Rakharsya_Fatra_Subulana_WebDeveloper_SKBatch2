@@ -1,6 +1,6 @@
 # RuangKarir
 
-RuangKarir adalah landing page rekrutmen RuangRaya. Halaman ini membantu calon pelamar mengenal budaya kerja, melihat posisi yang tersedia, dan memahami tahapan seleksi.
+RuangKarir adalah landing page rekrutmen RuangKarir. Halaman ini membantu calon pelamar mengenal budaya kerja, melihat posisi yang tersedia, dan memahami tahapan seleksi.
 
 ## Fitur utama
 
