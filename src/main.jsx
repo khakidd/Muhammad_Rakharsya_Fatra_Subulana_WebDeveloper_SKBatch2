@@ -458,7 +458,7 @@ function App() {
                   <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=80&h=80&q=75" alt="" />
                   <span>+</span>
                 </div>
-                <p><strong>Tempat terbaik untuk jadi diri sendiri.</strong><br />Kata 120+ teman RuangRaya.</p>
+                <p><strong>Tempat terbaik untuk jadi diri sendiri.</strong><br />Kata 120+ teman RuangKarir.</p>
               </div>
             </div>
             <div className="hero-visual">

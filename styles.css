@@ -85,7 +85,7 @@ h1, h2, h3 { font-family: var(--font-display); }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .hero-proof { display: flex; align-items: center; gap: 14px; margin-top: 44px; }
 .avatar-stack { display: flex; align-items: center; padding-left: 2px; }
-.avatar-stack img, .avatar-stack > span { width: 34px; height: 34px; margin-left: -3px; border: 2px solid var(--paper); border-radius: 50%; object-fit: cover; }
+.avatar-stack img, .avatar-stack > span { width: 34px; height: 34px; flex: 0 0 34px; margin-left: -3px; border: 2px solid var(--paper); border-radius: 50%; object-fit: cover; }
 .avatar-stack > span { display: grid; place-items: center; background: #e8ded0; color: var(--ink); font-size: 11px; font-weight: 700; }
 .hero-proof p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
 .hero-proof strong { color: var(--ink); font-size: 13px; }
